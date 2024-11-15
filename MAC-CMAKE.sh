@@ -1,6 +1,3 @@
 #!/bin/zsh
 
-BASEDIR=$(dirname $0)
-cd ${BASEDIR}/..
-
-BuildTools/premake/macosx/premake5 cmake
+premake/macosx/premake5 --file=../premake5.lua cmake
