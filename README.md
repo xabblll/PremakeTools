@@ -10,12 +10,13 @@ Main purpose of this repo is to simplify C/C++(/C#?) projects creation, and avoi
 2. Create premake5.lua file in **your project root** directory
 3. Run one of provided scripts. Or write your own
 
+### Linux and MacOS
+- Sadly need to provide permissions to scripts (and binaries?) via chmod command
+
 *Each script generates project from premake5.lua file from parent directory*
 
 ## TODO
 1. Check MacOS script, probably broken
-2. Linux support
-3. More target build systems scripts maybe
 
 ## Authors
 
